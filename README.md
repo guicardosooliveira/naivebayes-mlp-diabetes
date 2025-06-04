@@ -5,12 +5,13 @@ This project applies supervised machine learning techniques to predict early-sta
 - **Naive Bayes**: used as a simple baseline.
 - **Multi-Layer Perceptron (MLP)**: tuned using GridSearchCV to find the best combination of hyperparameters.
 
-The dataset used comes from Kaggle: [Early Stage Diabetes Risk Prediction Dataset](https://www.kaggle.com/datasets/ashwinikumarbijlwan/early-stage-diabetes-risk-prediction-dataset).
+The dataset used comes from Kaggle: [Early Stage Diabetes Risk Prediction Dataset](https://www.kaggle.com/datasets/abdelazizsami/early-stage-diabetes-risk-prediction).
 
 ---
 
 ## 📁 Project Structure
 
+```bash
 naivebayes-mlp-diabetes/
 │
 ├── data/
@@ -26,7 +27,7 @@ naivebayes-mlp-diabetes/
 ├── env/ # (Optional) Virtual environment folder
 ├── README.md
 └── .gitignore
-
+```
 
 
 ## Getting Started
@@ -34,7 +35,7 @@ naivebayes-mlp-diabetes/
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/naivebayes-mlp-diabetes.git
+git clone https://github.com/guicardosooliveira/naivebayes-mlp-diabetes
 cd naivebayes-mlp-diabetes
 ```
 ### 2. Install dependencies
@@ -44,7 +45,7 @@ pip install pandas scikit-learn
 ```
 ### 3. Download the dataset
 Download the dataset from Kaggle:
- https://www.kaggle.com/datasets/ashwinikumarbijlwan/early-stage-diabetes-risk-prediction-dataset
+https://www.kaggle.com/datasets/abdelazizsami/early-stage-diabetes-risk-prediction
 
 Place the file diabetes_data_upload.csv inside the data/ directory.
 
