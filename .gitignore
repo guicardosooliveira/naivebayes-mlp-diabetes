@@ -1,0 +1,14 @@
+# Ambientes virtuais
+env/
+.venv/
+ENV/
+env.bak/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Dados brutos ou sensíveis
+data/
+*.csv
